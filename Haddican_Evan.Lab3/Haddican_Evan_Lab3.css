@@ -1,0 +1,39 @@
+/*This is my global selector*/
+*{
+    font-family: Arial, Helvetica, sans-serif
+}
+/*This is my 1 ID (local selector)*/
+#email{
+    border-color:aquamarine
+}
+/*These are my 4 classes (local selectors)*/
+.myDiv{
+    background-color: burlywood;
+    border-color: darkblue;
+}
+
+.video{
+    border-color: black;
+    background-color: blueviolet;
+    height: 100px
+}
+
+.d{
+    background-color: lightblue;
+    margin: 50px
+}
+
+.image{
+    /*Align content is an element we did not discuss in class*/
+    align-content: center;
+    margin: 50px
+    padding: 10px
+}
+
+h1{
+    /*2nd element we did not discuss in class*/
+    text-decoration-line: underline;
+    text-decoration-color: blue;
+    /*3rd styling element we did not discuss*/
+    text-shadow: 2px 2px;
+}
